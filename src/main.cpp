@@ -18,9 +18,10 @@ int main(int argc,char **argv)
 	argv[1] = com[1];
 	argv[2] = com[2];
 	tinyc::code compilerinfo;
+	MsgList msglist;
 	command(argc,argv,compilerinfo);
-	precompiler(compilerinfo);
-
+	PreCompiler precompiler(compilerinfo,msglist);
+	precompiler.compile();
 
 	return 0;
 }
