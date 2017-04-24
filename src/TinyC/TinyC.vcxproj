@@ -112,11 +112,13 @@
   <ItemGroup>
     <ClCompile Include="CommandInput.cpp" />
     <ClCompile Include="CompilerInstance.cpp" />
+    <ClCompile Include="LexicalAnalyzer.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CommandInput.h" />
     <ClInclude Include="CompilerInstance.h" />
+    <ClInclude Include="LexicalAnalyzer.h" />
     <ClInclude Include="StringUtil.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

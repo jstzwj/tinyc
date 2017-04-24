@@ -24,6 +24,9 @@
     <ClCompile Include="CompilerInstance.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LexicalAnalyzer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StringUtil.h">
@@ -33,6 +36,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CompilerInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexicalAnalyzer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
