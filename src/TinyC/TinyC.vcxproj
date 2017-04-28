@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\driver\CommandInput.h" />
+    <ClInclude Include="include\frontend\CompilerInstance.h" />
+    <ClInclude Include="include\lex\LexicalAnalyzer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\driver\CommandInput.cpp" />
+    <ClCompile Include="lib\frontend\CompilerInstance.cpp" />
+    <ClCompile Include="lib\lex\LexicalAnalyzer.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0D771439-BFE1-4DE9-9AB2-BA09C43E9A08}</ProjectGuid>
     <RootNamespace>TinyC</RootNamespace>
@@ -109,18 +120,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="CommandInput.cpp" />
-    <ClCompile Include="CompilerInstance.cpp" />
-    <ClCompile Include="LexicalAnalyzer.cpp" />
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CommandInput.h" />
-    <ClInclude Include="CompilerInstance.h" />
-    <ClInclude Include="LexicalAnalyzer.h" />
-    <ClInclude Include="StringUtil.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

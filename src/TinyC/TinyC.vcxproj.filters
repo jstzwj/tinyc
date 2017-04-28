@@ -13,33 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\driver">
+      <UniqueIdentifier>{898d3d24-82a9-47ac-9888-e634665261e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\driver">
+      <UniqueIdentifier>{20a7c7a6-29d9-477e-bae1-b34c9ae0c90b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\basic">
+      <UniqueIdentifier>{43c7fa54-ba0b-49a6-a971-a65a6994bae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\basic">
+      <UniqueIdentifier>{4e4dac1e-914f-466f-9dca-093928f61ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\lex">
+      <UniqueIdentifier>{344f2570-d53d-4b7e-9b9c-0957d572f251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\lex">
+      <UniqueIdentifier>{f3d9499a-548a-4c1a-b06a-7ee40a6b309b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\frontend">
+      <UniqueIdentifier>{1292a391-65d9-4125-973a-36114a8516ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\frontend">
+      <UniqueIdentifier>{2b1f6b36-8ad2-4b0d-b728-03ca25053662}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\driver\CommandInput.h">
+      <Filter>头文件\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lex\LexicalAnalyzer.h">
+      <Filter>头文件\lex</Filter>
+    </ClInclude>
+    <ClInclude Include="include\frontend\CompilerInstance.h">
+      <Filter>头文件\frontend</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\driver\CommandInput.cpp">
+      <Filter>源文件\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\lex\LexicalAnalyzer.cpp">
+      <Filter>源文件\lex</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\frontend\CompilerInstance.cpp">
+      <Filter>源文件\frontend</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CommandInput.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CompilerInstance.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="LexicalAnalyzer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="StringUtil.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CommandInput.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CompilerInstance.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LexicalAnalyzer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
